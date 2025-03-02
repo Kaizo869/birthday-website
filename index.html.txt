@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎉 Happy Birthday! 🎂</h1>
+        <p>Leave a special wish below!</p>
+
+        <form id="wishForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <textarea id="wish" placeholder="Write your birthday wish..." required></textarea>
+            <button type="submit">Send Wish</button>
+        </form>
+
+        <p><a href="wishes.html">View Wishes</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
